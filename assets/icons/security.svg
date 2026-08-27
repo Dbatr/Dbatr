@@ -1,0 +1,15 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security">
+  <defs>
+    <linearGradient id="bg" x1="2" y1="2" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25282B"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>.pulse{animation:p 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes p{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}</style>
+  </defs>
+  <rect x="1" y="1" width="34" height="34" rx="10" fill="url(#bg)" stroke="#F04438" stroke-opacity=".5"/>
+  <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L21 5.5V11.2C21 16.6 17.4 21 12 23C6.6 21 3 16.6 3 11.2V5.5L12 2Z" stroke="#F04438" stroke-width="1.8"/><path d="M8 12L11 15L17 9" stroke="#FFF0C2" stroke-opacity=".88" stroke-width="2"/><circle class="pulse" cx="12" cy="12" r="1.5" fill="#F04438" stroke="none" filter="url(#glow)"/></g>
+</svg>

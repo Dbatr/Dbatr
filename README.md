@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Animated backend architecture banner for Denis Batrshin" />
+  <img src="./assets/hero.svg" width="100%" alt="Animated backend architecture banner for Denis" />
 </div>
 
-<h1 align="center">Denis Batrshin</h1>
+<h1 align="center">Hi, I'm Denis</h1>
 
 <p align="center">
   <strong>Backend Engineer · Java / Go / Python</strong><br />
@@ -21,17 +21,46 @@
   </a>
 </p>
 
-## `> whoami`
+<br />
 
-Java-focused backend developer with hands-on experience building services from data model and API design to testing, migrations, containerization and monitoring.
+<p align="center">
+  <img src="./assets/sections/whoami.svg" width="100%" alt="Who am I" />
+</p>
 
-- 🏢 Built a new server-side business scenario for **Brusnika's investment modelling system**; the functionality passed pilot operation and was accepted for internal use.
-- ⚙️ Design REST/gRPC APIs, business logic, database migrations, authentication and service integrations.
-- 🧪 Work with unit and integration tests, Testcontainers, structured logging and observability.
-- 🎓 UrFU Applied Informatics graduate with honours; thesis defended with an excellent grade.
-- 📍 Based in Yekaterinburg; open to remote, office and hybrid backend roles.
+Java-focused backend developer building reliable and maintainable services across the full development lifecycle.
 
-## `> languages --primary`
+<table>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/api.svg" width="28" alt="API" /></td>
+    <td>Design and implement REST/gRPC APIs, business logic and data models.</td>
+  </tr>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/database.svg" width="28" alt="Data" /></td>
+    <td>Work with relational databases, schema migrations, caching and message brokers.</td>
+  </tr>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/security.svg" width="28" alt="Security" /></td>
+    <td>Implement authentication, authorization and service integrations.</td>
+  </tr>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/testing.svg" width="28" alt="Testing" /></td>
+    <td>Write unit and integration tests using JUnit, Mockito and Testcontainers.</td>
+  </tr>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/container.svg" width="28" alt="Infrastructure" /></td>
+    <td>Build containerized environments and configure logging, metrics and monitoring.</td>
+  </tr>
+  <tr>
+    <td width="48" align="center"><img src="./assets/icons/git.svg" width="28" alt="Git" /></td>
+    <td>Collaborate through Git, work with existing codebases and maintain backward compatibility.</td>
+  </tr>
+</table>
+
+<br />
+
+<p align="center">
+  <img src="./assets/sections/languages.svg" width="100%" alt="Primary languages" />
+</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -39,31 +68,43 @@ Java-focused backend developer with hands-on experience building services from d
   </a>
 </p>
 
-## `> stack --backend`
+<br />
+
+<p align="center">
+  <img src="./assets/sections/toolbox.svg" width="100%" alt="Technology toolbox" />
+</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,postgres,redis,kafka,docker,prometheus,grafana,git,githubactions,linux,maven,gradle&theme=dark&perline=12" alt="Backend tools and infrastructure" />
+    <img src="https://skillicons.dev/icons?i=spring,fastapi,django,pytorch,tensorflow,postgres,redis,kafka,docker,prometheus,grafana,git,githubactions,linux,maven,gradle&theme=dark&perline=8" alt="Backend, machine learning and infrastructure technologies" />
   </a>
 </p>
 
-| Core | Data & messaging | Delivery & quality |
-| :--- | :--- | :--- |
-| Spring Boot, Spring Security, JPA/Hibernate, jOOQ | PostgreSQL, Redis, Kafka, Liquibase, Flyway | JUnit, Mockito, Testcontainers, Docker Compose, OpenAPI |
-| REST, gRPC, JWT, layered services | SQL, caching, migrations, event-driven integration | Prometheus, Grafana, Actuator, GitHub Actions |
+| Area | Technologies |
+| :--- | :--- |
+| **Java** | Spring Boot, Spring Security, Spring Data JPA, Hibernate, jOOQ, REST, gRPC, JWT |
+| **Go** | Gin, Chi, net/http, gRPC, GORM, goroutines, channels |
+| **Python & ML** | FastAPI, Django, PyTorch, TensorFlow, scikit-learn, OpenCV |
+| **Data & Messaging** | PostgreSQL, Redis, Kafka, SQL, Liquibase, Flyway |
+| **Testing & Delivery** | JUnit, Mockito, Testcontainers, Docker Compose, OpenAPI, GitHub Actions |
+| **Infrastructure & Observability** | Docker, Linux, Prometheus, Grafana, Spring Boot Actuator, structured logging |
 
-## `> projects --featured`
+<br />
+
+<p align="center">
+  <img src="./assets/sections/projects.svg" width="100%" alt="Featured projects" />
+</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏢 UdvCorpSocialBackend</h3>
+      <h3><img src="./assets/icons/corporate.svg" width="24" alt="" /> UdvCorpSocialBackend</h3>
       <p>Backend for a corporate social portal: employee profiles, organisational structure, communities, posts, projects and competency management.</p>
       <p><code>Java 21</code> <code>Spring Boot 3</code> <code>PostgreSQL</code> <code>MinIO</code> <code>Docker</code></p>
       <a href="https://github.com/WebStormUdv/UdvCorpSocialBackend"><strong>Explore repository →</strong></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🥗 CalorieTracker</h3>
+      <h3><img src="./assets/icons/nutrition.svg" width="24" alt="" /> CalorieTracker</h3>
       <p>Nutrition and activity tracker with food diary, calorie and macro calculations, goals, measurements, Redis caching and admin statistics.</p>
       <p><code>Java 21</code> <code>Spring Boot 3</code> <code>PostgreSQL</code> <code>Redis</code> <code>Thymeleaf</code></p>
       <a href="https://github.com/PracticeNaumen2025/CalorieTracker"><strong>Explore repository →</strong></a>
@@ -71,7 +112,7 @@ Java-focused backend developer with hands-on experience building services from d
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>🔀 BFF Gateway</h3>
+      <h3><img src="./assets/icons/gateway.svg" width="24" alt="" /> BFF Gateway</h3>
       <p>Microservice backend with a BFF layer and User/Auth, Product and Order services. Combines HTTP and gRPC communication, PostgreSQL persistence, Redis caching and Prometheus/Grafana observability.</p>
       <p><code>Go</code> <code>Gin</code> <code>gRPC</code> <code>PostgreSQL</code> <code>Redis</code> <code>Prometheus</code></p>
       <a href="https://github.com/microserviceteam0/bff-gateway"><strong>Explore repository →</strong></a>
@@ -79,10 +120,10 @@ Java-focused backend developer with hands-on experience building services from d
   </tr>
 </table>
 
-## `> github --metrics`
+<br />
 
 <p align="center">
-  <img width="58%" src="https://github-readme-stats.vercel.app/api?username=Dbatr&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=12&title_color=F04438&text_color=FFF0C2&icon_color=F04438&bg_color=15,0D1117,25282B" alt="Denis's GitHub statistics" />
+  <img src="./assets/sections/activity.svg" width="100%" alt="GitHub activity" />
 </p>
 
 <picture>
@@ -90,6 +131,10 @@ Java-focused backend developer with hands-on experience building services from d
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dbatr/Dbatr/output/github-snake.svg" />
   <img width="100%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/Dbatr/Dbatr/output/github-snake.svg" />
 </picture>
+
+<p align="center">
+  <sub><code>OUTPUT BRANCH</code> · generated daily by GitHub Actions</sub>
+</p>
 
 <details>
   <summary><strong>More about how I work</strong></summary>
@@ -99,6 +144,3 @@ Java-focused backend developer with hands-on experience building services from d
 
 <br />
 
-<p align="center">
-  <sub>Designed in the colours of my avatar: <code>#F04438</code> · <code>#25282B</code> · <code>#FFF0C2</code></sub>
-</p>

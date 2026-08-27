@@ -1,0 +1,15 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corporate platform">
+  <defs>
+    <linearGradient id="bg" x1="2" y1="2" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25282B"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>.pulse{animation:p 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes p{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}</style>
+  </defs>
+  <rect x="1" y="1" width="34" height="34" rx="10" fill="url(#bg)" stroke="#F04438" stroke-opacity=".5"/>
+  <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V5L12 2L20 5V22" stroke="#F04438" stroke-width="1.8"/><path d="M1.5 22H22.5" stroke="#FFF0C2" stroke-opacity=".75" stroke-width="1.7"/><path d="M8 7H10M14 7H16M8 11H10M14 11H16M8 15H10M14 15H16" stroke="#FFF0C2" stroke-opacity=".7" stroke-width="1.6"/><path d="M10 22V18H14V22" stroke="#F04438" stroke-width="1.6"/></g>
+</svg>

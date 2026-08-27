@@ -1,0 +1,15 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BFF gateway">
+  <defs>
+    <linearGradient id="bg" x1="2" y1="2" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25282B"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>.pulse{animation:p 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes p{0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}</style>
+  </defs>
+  <rect x="1" y="1" width="34" height="34" rx="10" fill="url(#bg)" stroke="#F04438" stroke-opacity=".5"/>
+  <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="8" height="8" rx="2" stroke="#F04438" stroke-width="1.8"/><path d="M1.5 5H6L8 9M22.5 5H18L16 9M1.5 19H6L8 15M22.5 19H18L16 15" stroke="#FFF0C2" stroke-opacity=".78" stroke-width="1.7"/><path d="M1.5 5L4 2.5M1.5 5L4 7.5M22.5 5L20 2.5M22.5 5L20 7.5M1.5 19L4 16.5M1.5 19L4 21.5M22.5 19L20 16.5M22.5 19L20 21.5" stroke="#F04438" stroke-width="1.5"/><circle class="pulse" cx="12" cy="12" r="2" fill="#FFF0C2" stroke="none" filter="url(#glow)"/></g>
+</svg>
