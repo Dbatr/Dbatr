@@ -1,0 +1,153 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Denis Batrshin — Backend Engineer</title>
+  <desc id="desc">Animated terminal and service architecture in red, graphite and cream colours.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#17181C"/>
+      <stop offset="1" stop-color="#25282B"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="70" y1="40" x2="930" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F04438"/>
+      <stop offset="1" stop-color="#7E241F"/>
+    </linearGradient>
+    <radialGradient id="flare">
+      <stop stop-color="#F04438" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#F04438" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#FFF0C2" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="panelClip">
+      <rect x="25" y="25" width="950" height="310" rx="24"/>
+    </clipPath>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .wire { stroke-dasharray: 8 9; animation: dash 5s linear infinite; }
+      .soft-pulse { animation: softPulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 1s steps(1) infinite; }
+      .line1 { animation: reveal 8s ease-in-out infinite; }
+      .line2 { animation: reveal2 8s ease-in-out infinite; }
+      .line3 { animation: reveal3 8s ease-in-out infinite; }
+      .scan { animation: scan 5s linear infinite; }
+      .orbit { animation: orbit 9s linear infinite; transform-origin: 750px 184px; }
+      @keyframes dash { to { stroke-dashoffset: -85; } }
+      @keyframes softPulse { 0%,100% { opacity:.6; transform:scale(.96) } 50% { opacity:1; transform:scale(1.04) } }
+      @keyframes blink { 0%,48% { opacity:1 } 49%,100% { opacity:0 } }
+      @keyframes reveal { 0%,8% { opacity:0 } 12%,88% { opacity:1 } 96%,100% { opacity:0 } }
+      @keyframes reveal2 { 0%,22% { opacity:0 } 27%,88% { opacity:1 } 96%,100% { opacity:0 } }
+      @keyframes reveal3 { 0%,39% { opacity:0 } 44%,88% { opacity:1 } 96%,100% { opacity:0 } }
+      @keyframes scan { from { transform:translateY(-20px) } to { transform:translateY(380px) } }
+      @keyframes orbit { to { transform:rotate(360deg) } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="360" rx="28" fill="#0D1117"/>
+  <rect x="25" y="25" width="950" height="310" rx="24" fill="url(#bg)" stroke="#F04438" stroke-opacity="0.38" filter="url(#shadow)"/>
+  <g clip-path="url(#panelClip)">
+    <rect x="25" y="25" width="950" height="310" fill="url(#grid)"/>
+    <circle cx="921" cy="56" r="150" fill="url(#flare)"/>
+    <circle cx="78" cy="322" r="120" fill="url(#flare)" opacity="0.55"/>
+    <rect class="scan" x="25" y="0" width="950" height="2" fill="#F04438" opacity="0.14"/>
+  </g>
+
+  <rect x="53" y="53" width="430" height="254" rx="16" fill="#0A0D12" stroke="#FFF0C2" stroke-opacity="0.13"/>
+  <rect x="53" y="53" width="430" height="37" rx="16" fill="#17191E"/>
+  <path d="M53 74C53 62.402 62.402 53 74 53H462C473.598 53 483 62.402 483 74V90H53V74Z" fill="#17191E"/>
+  <circle cx="76" cy="72" r="5" fill="#F04438"/>
+  <circle cx="94" cy="72" r="5" fill="#FFF0C2" fill-opacity="0.48"/>
+  <circle cx="112" cy="72" r="5" fill="#FFF0C2" fill-opacity="0.18"/>
+  <text x="267" y="77" text-anchor="middle" fill="#FFF0C2" fill-opacity="0.46" font-size="11">backend://profile</text>
+
+  <text x="79" y="122" fill="#F04438" font-size="14">denis@backend</text>
+  <text x="202" y="122" fill="#FFF0C2" fill-opacity="0.55" font-size="14">:</text>
+  <text x="213" y="122" fill="#F04438" font-size="14">~</text>
+  <text x="228" y="122" fill="#FFF0C2" fill-opacity="0.55" font-size="14">$</text>
+  <text x="247" y="122" fill="#FFF0C2" font-size="14">whoami</text>
+
+  <g class="line1">
+    <text x="79" y="157" fill="#FFF0C2" font-size="27" font-weight="700" letter-spacing="0.5">DENIS BATRSHIN</text>
+    <rect x="79" y="169" width="250" height="2" rx="1" fill="url(#redGlow)"/>
+  </g>
+  <g class="line2">
+    <text x="79" y="201" fill="#F04438" font-size="14">BACKEND ENGINEER</text>
+    <text x="228" y="201" fill="#FFF0C2" fill-opacity="0.52" font-size="14">// scalable · observable · tested</text>
+  </g>
+  <g class="line3">
+    <rect x="79" y="224" width="74" height="27" rx="7" fill="#F04438" fill-opacity="0.13" stroke="#F04438" stroke-opacity="0.5"/>
+    <text x="116" y="242" text-anchor="middle" fill="#FFF0C2" font-size="12">JAVA 21</text>
+    <rect x="163" y="224" width="52" height="27" rx="7" fill="#F04438" fill-opacity="0.13" stroke="#F04438" stroke-opacity="0.5"/>
+    <text x="189" y="242" text-anchor="middle" fill="#FFF0C2" font-size="12">GO</text>
+    <rect x="225" y="224" width="72" height="27" rx="7" fill="#F04438" fill-opacity="0.13" stroke="#F04438" stroke-opacity="0.5"/>
+    <text x="261" y="242" text-anchor="middle" fill="#FFF0C2" font-size="12">PYTHON</text>
+  </g>
+  <text x="79" y="282" fill="#F04438" font-size="14">➜</text>
+  <text x="104" y="282" fill="#FFF0C2" fill-opacity="0.72" font-size="13">ship(reliable_systems);</text>
+  <rect class="blink" x="314" y="269" width="8" height="16" fill="#F04438"/>
+
+  <g opacity="0.9">
+    <path class="wire" d="M579 115H671" stroke="#F04438" stroke-width="2"/>
+    <path class="wire" d="M780 115H870" stroke="#F04438" stroke-width="2"/>
+    <path class="wire" d="M725 145V224" stroke="#FFF0C2" stroke-opacity="0.45" stroke-width="2"/>
+    <path class="wire" d="M760 224V145" stroke="#F04438" stroke-opacity="0.65" stroke-width="2"/>
+    <path class="wire" d="M671 256H612V200" stroke="#F04438" stroke-opacity="0.65" stroke-width="2"/>
+    <path class="wire" d="M814 256H875V200" stroke="#FFF0C2" stroke-opacity="0.4" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="4" fill="#F04438" opacity="0">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M579 115H291" keyPoints="0;1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#FFF0C2" opacity="0">
+      <animateMotion dur="3.1s" begin=".8s" repeatCount="indefinite" path="M671 115H199" keyPoints="0;1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="3.1s" begin=".8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g class="soft-pulse">
+    <rect x="523" y="88" width="103" height="55" rx="12" fill="#15171C" stroke="#F04438"/>
+    <text x="574.5" y="111" text-anchor="middle" fill="#F04438" font-size="11">CLIENT</text>
+    <text x="574.5" y="128" text-anchor="middle" fill="#FFF0C2" fill-opacity="0.68" font-size="9">HTTP / JSON</text>
+  </g>
+  <g>
+    <rect x="671" y="82" width="109" height="66" rx="14" fill="#F04438" fill-opacity="0.13" stroke="#F04438" stroke-width="1.5"/>
+    <text x="725.5" y="109" text-anchor="middle" fill="#FFF0C2" font-size="12" font-weight="700">API</text>
+    <text x="725.5" y="128" text-anchor="middle" fill="#F04438" font-size="10">GATEWAY</text>
+  </g>
+  <g class="soft-pulse" style="animation-delay:.8s">
+    <rect x="851" y="88" width="103" height="55" rx="12" fill="#15171C" stroke="#FFF0C2" stroke-opacity="0.45"/>
+    <text x="902.5" y="111" text-anchor="middle" fill="#FFF0C2" font-size="11">AUTH</text>
+    <text x="902.5" y="128" text-anchor="middle" fill="#F04438" font-size="9">JWT / RBAC</text>
+  </g>
+  <g>
+    <rect x="670" y="224" width="145" height="64" rx="14" fill="#15171C" stroke="#F04438" stroke-opacity="0.8"/>
+    <text x="742.5" y="250" text-anchor="middle" fill="#FFF0C2" font-size="11">BUSINESS CORE</text>
+    <text x="742.5" y="269" text-anchor="middle" fill="#F04438" font-size="9">Spring Boot · Go</text>
+  </g>
+  <g class="soft-pulse" style="animation-delay:1.4s">
+    <rect x="527" y="174" width="85" height="54" rx="12" fill="#15171C" stroke="#FFF0C2" stroke-opacity="0.42"/>
+    <text x="569.5" y="197" text-anchor="middle" fill="#FFF0C2" font-size="10">KAFKA</text>
+    <text x="569.5" y="213" text-anchor="middle" fill="#F04438" font-size="8">EVENTS</text>
+  </g>
+  <g class="soft-pulse" style="animation-delay:2s">
+    <rect x="852" y="174" width="98" height="54" rx="12" fill="#15171C" stroke="#F04438" stroke-opacity="0.72"/>
+    <text x="901" y="197" text-anchor="middle" fill="#FFF0C2" font-size="10">POSTGRES</text>
+    <text x="901" y="213" text-anchor="middle" fill="#F04438" font-size="8">DATA</text>
+  </g>
+
+  <g class="orbit" opacity="0.55">
+    <circle cx="750" cy="70" r="3" fill="#FFF0C2"/>
+    <circle cx="750" cy="298" r="3" fill="#F04438"/>
+  </g>
+
+  <text x="742" y="320" text-anchor="middle" fill="#FFF0C2" fill-opacity="0.31" font-size="9" letter-spacing="2">REQUEST → PROCESS → OBSERVE</text>
+</svg>
