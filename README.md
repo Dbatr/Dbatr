@@ -82,7 +82,7 @@ Java-focused backend developer building reliable and maintainable services acros
 
 | Area | Technologies |
 | :--- | :--- |
-| **Java** | Spring Boot, Spring Security, Spring Data JPA, Hibernate, jOOQ, REST, gRPC, JWT |
+| **Java** | Spring Boot, Spring Security, Spring Data JPA, Quarkus, Hibernate, jOOQ, REST, gRPC, JWT |
 | **Go** | Gin, Chi, net/http, gRPC, GORM, goroutines, channels |
 | **Python & ML** | FastAPI, Django, PyTorch, TensorFlow, scikit-learn, OpenCV |
 | **Data & Messaging** | PostgreSQL, Redis, Kafka, SQL, Liquibase, Flyway |
