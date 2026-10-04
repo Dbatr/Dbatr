@@ -87,7 +87,7 @@ Java-focused backend developer building reliable and maintainable services acros
 | **Python & ML** | FastAPI, Django, PyTorch, TensorFlow, scikit-learn, OpenCV |
 | **Data & Messaging** | PostgreSQL, Redis, Kafka, SQL, Liquibase, Flyway |
 | **Testing & Delivery** | JUnit, Mockito, Testcontainers, Docker Compose, OpenAPI, GitHub Actions |
-| **Infrastructure & Observability** | Docker, Linux, Prometheus, Grafana, Spring Boot Actuator, structured logging |
+| **Infrastructure & Observability** | Docker, Linux, Prometheus, Grafana, Loki, Kubernetes, Spring Boot Actuator, structured logging |
 
 <br />
 
